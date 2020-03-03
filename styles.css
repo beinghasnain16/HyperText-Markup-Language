@@ -1,0 +1,13 @@
+body {
+background-color:white }
+h1 {
+border:2px solid black;
+background-color:grey;
+padding:20px;
+color:white;
+font-size:60px;
+font-family:verdana; }
+#p02 {
+color: purple; }
+p.imp {
+border:3px solid red }
