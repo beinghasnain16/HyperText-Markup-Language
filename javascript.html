@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Javascript</title>
+</head>
+<body>
+<h1>Hello Javascript</h1>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML=Date()">Click me to display date and time</button>
+
+<p id="demo"></p>
+<p id="test"> Javascript can change the content of HTML element</p>
+<button type="button" onclick=myFunction()>Click Me</button>
+
+<p id="eg1">Javascript can change the style of an element</p>
+<button type="button" onclick=yourFunction()>Click Here</button>
+<script>
+
+function yourFunction() {
+	document.getElementById("eg1").style.fontSize="50px";
+	document.getElementById("eg1").style.color="red";
+}
+</script>
+
+</body>
+</html> 
